@@ -1,7 +1,8 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
-  output: 'export',
-  basePath:'/virtuallab'
-}
-
-module.exports = nextConfig
+    output: 'export',
+    //basePath:'/sciencelab'
+    }
+    module.exports = nextConfig
