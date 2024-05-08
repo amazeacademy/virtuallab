@@ -21,6 +21,7 @@ const Physics: React.FC<PhysicsProps> = ({}) => {
             title="Brick Bonds"
             UnityBuildName="Brick"
             SceneIndex={1}
+            isDisabled={true}
           />
         </div>
         <div>
@@ -29,6 +30,44 @@ const Physics: React.FC<PhysicsProps> = ({}) => {
             title="Plane Table: Three Point Problem "
             UnityBuildName="PlaneTable_3PointProblem"
             SceneIndex={1}
+            isDisabled={true}
+          />
+        </div>
+
+        <div>
+          <Card
+            imageUrl="Theodolite.jpg"
+            title="Theodolite"
+            UnityBuildName="Theodolite"
+            SceneIndex={1}
+            isDisabled={false}
+          />
+        </div>
+        <div>
+          <Card
+            imageUrl={"Dam.jpg"}
+            title="Dams"
+            UnityBuildName="Dam"
+            SceneIndex={1}
+            isDisabled={false}
+          />
+        </div>
+        <div>
+          <Card
+            imageUrl={"slab.jpg"}
+            title="RCC-Slabs"
+            UnityBuildName="Slab"
+            SceneIndex={1}
+            isDisabled={false}
+          />
+        </div>
+        <div>
+          <Card
+            imageUrl={"stair.jpg"}
+            title="Stair"
+            UnityBuildName="Stair"
+            SceneIndex={1}
+            isDisabled={false}
           />
         </div>
       </div>
