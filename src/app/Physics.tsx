@@ -33,6 +33,15 @@ const Physics: React.FC<PhysicsProps> = ({}) => {
             isDisabled={true}
           />
         </div>
+        <div>
+          <Card
+            imageUrl={"PlaneTable_3PointProblem.jpg"}
+            title="Plane Table: Back Sighting"
+            UnityBuildName="PlaneTable_BS"
+            SceneIndex={1}
+            isDisabled={true}
+          />
+        </div>
 
         <div>
           <Card
