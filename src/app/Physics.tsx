@@ -24,15 +24,7 @@ const Physics: React.FC<PhysicsProps> = ({}) => {
             isDisabled={true}
           />
         </div>
-        <div>
-          <Card
-            imageUrl={"PlaneTable_3PointProblem.jpg"}
-            title="Plane Table: Three Point Problem "
-            UnityBuildName="PlaneTable_3PointProblem"
-            SceneIndex={1}
-            isDisabled={true}
-          />
-        </div>
+
         <div>
           <Card
             imageUrl={"PlaneTable_3PointProblem.jpg"}
@@ -75,6 +67,15 @@ const Physics: React.FC<PhysicsProps> = ({}) => {
             imageUrl={"stair.jpg"}
             title="Stair"
             UnityBuildName="Stair"
+            SceneIndex={1}
+            isDisabled={false}
+          />
+        </div>
+        <div>
+          <Card
+            imageUrl={"PlaneTable_3PointProblem.jpg"}
+            title="Plane Table: Three Point Problem "
+            UnityBuildName="PlaneTable_3PointProblem"
             SceneIndex={1}
             isDisabled={false}
           />
